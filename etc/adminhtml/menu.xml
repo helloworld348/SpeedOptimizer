@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+  <menu>
+    <add id="Helloworld_Core::menu" title="Hello World" module="Helloworld_Core" sortOrder="100" resource="Magento_Backend::content" />
+    <!-- START: new Menu -->  
+    <add id="Helloworld_Core::menu_item" title="SpeedOptimizer" module="Helloworld_SpeedOptimizer" sortOrder="10" parent="Helloworld_Core::menu" action="adminhtml/system_config/edit/section/helloworld_speedoptimizer" resource="Helloworld_SpeedOptimizer::menu_item" />
+    <!-- END:   new Menu -->
+  </menu>
+</config>
