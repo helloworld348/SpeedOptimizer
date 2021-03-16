@@ -2,7 +2,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
   <menu>
     <!-- START: new Menu -->  
-    <add id="Helloworld_Core::menu_item" title="SpeedOptimizer" module="Helloworld_SpeedOptimizer" sortOrder="10" parent="Helloworld_Core::menu" action="adminhtml/system_config/edit/section/helloworld_speedoptimizer" resource="Helloworld_SpeedOptimizer::menu_item" />
+    <add id="Helloworld_Core::menu_item" title="SpeedOptimizer" module="Helloworld_SpeedOptimizer" sortOrder="10" parent="Helloworld_Core::menu" action="adminhtml/system_config/edit/section/Helloworld_speedoptimizer" resource="Helloworld_SpeedOptimizer::menu_item" />
     <!-- END:   new Menu -->
   </menu>
 </config>
