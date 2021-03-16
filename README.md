@@ -32,33 +32,6 @@ Speed Optimizer for Magento 2 is the extension that can help page speed optimiza
 #### 5. Easy To Customize
 - Scripts and Style Sheets: This field is for who want to customize the lazy load, use particular scripts or style.
 
-
-### Result After using Speed Optimizer Extension
-
-#### Speed Test On Gtmetrix.Com
-
- ![speedoptimizer-img](https://github.com/magepow/magento2-SpeedOptimizer/blob/master/media/speed_gtmetrix.png)
-
-#### Speed Test On Google PageSpeed Insights
-
- ![speedoptimizer-img](https://github.com/magepow/magento2-SpeedOptimizer/blob/master/media/speed_google.jpg)
- 
-### Magepow_Speed Optimizer Pricing
- [![ Magepow_Speed Optimizer Pricing](https://github.com/magepow/magento2-speedoptimizer/blob/master/media/Magento_Speed_Optimization_Pro.png)](https://alothemes.com/default/magento-speed-optimization-service.html)
-### How to install Magento 2 Speed Optimizer
-#### ✓ Install Magepow Speed Optimizer via composer (recommend)
-Run the following command in Magento 2 root folder:
-
-```
-php bin/magento setup:upgrade
-php bin/magento setup:static-content:deploy -f
-```
-
-#### ✓ Install Package from ```copy paste``` package
-
-Download the latest version at [Magepow.com](https://magepow.com/)
-
-
 ### Page Speed Optimization  FAQs
 
 #### Q: I got error javascript after enabled module
@@ -67,4 +40,4 @@ A: The error can cause with SyntaxError: missing ; before statement. When module
 Solution 1 (Recommend): Fixed the all missing ; before statement you can use 'use strict'; in code to find js to find and fixed error missing ; before statement.
 	You can read more how to use 'use strict'; here [use strict](https://www.w3schools.com/js/js_strict.asp) or [Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) 
 
-Solution 2: Go to Admin Panel > Stores > Configuration > Magepow > Speed Optimizer > Minify inline Javascript => Choose "No"
+Solution 2: Go to Admin Panel > Stores > Configuration > Helloworld > Speed Optimizer > Minify inline Javascript => Choose "No"
