@@ -3,7 +3,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
         <tab id="Helloworld" translate="label" sortOrder="105">
-            <label>Hello Jyoti</label>
+            <label>Hello World</label>
         </tab>
         <section id="Helloworld_speedoptimizer" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
             <class>separator-top</class>
