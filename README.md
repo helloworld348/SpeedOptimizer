@@ -40,4 +40,4 @@ A: The error can cause with SyntaxError: missing ; before statement. When module
 Solution 1 (Recommend): Fixed the all missing ; before statement you can use 'use strict'; in code to find js to find and fixed error missing ; before statement.
 	You can read more how to use 'use strict'; here [use strict](https://www.w3schools.com/js/js_strict.asp) or [Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) 
 
-Solution 2: Go to Admin Panel > Stores > Configuration > Magepow > Speed Optimizer > Minify inline Javascript => Choose "No"
+Solution 2: Go to Admin Panel > Stores > Configuration > Helloworld > Speed Optimizer > Minify inline Javascript => Choose "No"
